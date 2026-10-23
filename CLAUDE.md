@@ -1,12 +1,12 @@
 # CLAUDE.md - Bookmarks API
 
-Read this first.The Spec is in docs/spec.md and is the source of truth.
+Read this first.The spec is in docs/spec.md and is the source of truth.
 
 ## what this is
-A Rest service that saves bookmarks.No AI inside it.No users,no login.
+A REST service that saves bookmarks.No AI inside it.No users,no login.
 
 ## Stack
-Python 3.11+,FastAPI,Postgres,psucopg(plain SQL,no ORM),pytest.
+Python 3.11+,FastAPI,Postgres,psycopg(plain SQL,no ORM),pytest.
 
 ## Folder layout 
 - app/  the service code
