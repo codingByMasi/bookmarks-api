@@ -1,12 +1,12 @@
-# Bookamrks API :Spec
+# Bookmarks API: Spec
 
-## 1.Purpose
+## 1. Purpose
 
-A small webservice that saves weblinks(Bookmarks). A client can add,list,read,change,and delete Bookmarks over HTTP. when a Bookmark is added without a title , the service fetches the page title itself.
+A small web service that saves web links (bookmarks). A client can add, list, read, change and delete bookmarks over HTTP. When a bookmark is added without a title, the service fetches the page title itself.
 
 ## 2. Data
 
-A Bookmarks has :
+A bookmark has:
 
 - id:number,set by the server
 - url:required, must start with http:// or https:// ,max 2000 characters 
@@ -15,7 +15,7 @@ A Bookmarks has :
 - created_at : set by the server
 - the same url cannot be saved twice
 
-## 3. End points
+## 3. Endpoints
 - GET /health -> 200
 - POST /bookmarks -> 201
 - GET /bookmarks -> 200
